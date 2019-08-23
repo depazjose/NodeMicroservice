@@ -1,0 +1,16 @@
+{
+    "name": "deno",
+    "version": "1.0.0",
+    "description": "microservice",
+    "main": "src/server/server.js",
+    "scripts": {
+        "start": "node src/server/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "kerberos",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "request": "^2.88.0"
+    }
+}
